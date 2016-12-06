@@ -1,6 +1,6 @@
 'use strict';
 class SilentRenderer {
-	get nonTTY() {
+	static get nonTTY() {
 		return true;
 	}
 	render() { }
