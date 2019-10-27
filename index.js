@@ -3,7 +3,9 @@ class SilentRenderer {
 	static get nonTTY() {
 		return true;
 	}
+
 	render() { }
+
 	end() {	}
 }
 
